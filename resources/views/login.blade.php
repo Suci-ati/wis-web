@@ -27,7 +27,7 @@
                 <form class="login100-form validate-form" action="process-login" method="POST">
                     @csrf
                     <span class="login100-form-title">
-                        Departemen Teknik Kelautan
+                        Departemen PWK
                     </span>
                     @if (session()->has('error_msg'))
                     <div class="alert alert-danger text-center rounded-pill my-4">{{ session('error_msg')  }}</div>
